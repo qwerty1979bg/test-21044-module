@@ -7,3 +7,7 @@ resource "null_resource" "mod" {
     build_number = "${timestamp()}"
   }
 }
+
+output "value" {
+  value = test
+}
