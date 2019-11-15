@@ -9,5 +9,5 @@ resource "null_resource" "mod" {
 }
 
 output "value" {
-  value = test
+  value = var.test
 }
